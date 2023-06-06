@@ -1,0 +1,34 @@
+.text-center {
+  text-align: center;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-wel {
+  color: white;
+  font-size: 50px;
+}
+
+.t-s {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e5e0ff;
+}
