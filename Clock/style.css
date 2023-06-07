@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+body {
+  background-color: #ffd966;
+}
+
+.wel {
+  text-align: center;
+  font-size: 4.5rem;
+  color: #f8f6f4;
+  font-family: "Outfit", sans-serif;
+}
+
+#clockContainer {
+  /* top: 10px;  */
+  position: relative;
+  margin: auto;
+  height: 75vh;
+  width: 40vw;
+  background: url(clock.png) no-repeat;
+  background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background-color: #0b2447;
+  border-radius: 8px;
+  transform-origin: bottom;
+}
+
+#hour {
+  top: 29%;
+  left: 49.5%;
+  width: 2%;
+  height: 20%;
+}
+
+#minute {
+  top: 22%;
+  left: 49.5%;
+  width: 1.5%;
+  height: 27%;
+}
+
+#second {
+  top: 22%;
+  left: 49.5%;
+  width: 1%;
+  height: 27%;
+}
+
+#centerCircle {
+  position: absolute;
+  background-color: #0b2447;
+  top: 46.5%;
+  left: 47.5%;
+  height: 5%;
+  width: 5%;
+  border-radius: 50%;
+}
